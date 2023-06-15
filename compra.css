@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000000), url(img/pexels-mike-120049.jpg);
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.form{
+    align-items: center;
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form .title{
+    text-align: center;
+    
+}
+
+.form button{
+    height: 50px;
+    padding: 1rem;
+    font-weight: 400;
+    background-color: rgb(21, 4, 177);
+    border: none;
+    outline: none ;
+    cursor: pointer;
+    font-size: .9rem ;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+    border-spacing: 4rem;
+    border-radius: 8px;
+    display: flex;
+    
+}
+
+.form button a{
+    text-decoration: none;
+    color: white;
+}
+    
+
+.form button:hover{
+    background-color: rgb(13, 38, 75) ;  
+    color: rgb(109, 109, 122);
+}
+
+.for {
+    width:400px;
+    padding: 1rem;
+    margin:1rem;
+    text-align: center;
+    font-family: 'FonteLogo';
+    border-radius: 40px;
+    
+    
+}
+
+
+
+
+h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 28px;
+
+}
+h4{
+    color: rgb(98, 98, 98);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+ 
+}
+
+.compra select{
+    width: 70%;
+    height: 38px;
+    font-size: 15.8px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.compra select:hover{
+    color: rgb(63, 94, 141);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.for input{
+     width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: 16px;
+    font-size: .9rem;
+    color: white;
+}
